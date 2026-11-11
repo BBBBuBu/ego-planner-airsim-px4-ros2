@@ -1,0 +1,25 @@
+{
+  "goal_enu_m": [
+    0.15,
+    15.0,
+    2.0
+  ],
+  "max_velocity_mps": 0.5,
+  "max_acceleration_mps2": 1.0,
+  "obstacle_inflation_m": 0.5,
+  "map_resolution_m": 0.1,
+  "takeoff_height_m": 2.0,
+  "camera_mount_ned_m": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "camera_size_px": [
+    200,
+    150
+  ],
+  "camera_fov_degrees": 90,
+  "bridge_px4_timestamp_mode": "receiver",
+  "bridge_recovery_max_attempts": 3,
+  "use_sim_time": false
+}
