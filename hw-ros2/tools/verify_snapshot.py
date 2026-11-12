@@ -2,8 +2,8 @@
 """Check that archived source bytes still match the captured baseline."""
 from pathlib import Path
 import hashlib,json,sys
-root=Path(__file__).resolve().parents[1]
-manifest=json.loads((root/'baseline/source_manifest.json').read_text())
+root=Path(__file__).resolve().parents[2]
+manifest=json.loads((root/'hw-ros2/baseline/source_manifest.json').read_text())
 errors=[]
 for item in manifest['files']:
  p=root/item['file']

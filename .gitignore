@@ -1,11 +1,13 @@
+# Build products, runtime data and editor caches at any directory depth
 build/
 install/
 log/
+logs/
 __pycache__/
-*.py[cod]
 .pytest_cache/
 .vscode/
 .idea/
+*.py[cod]
 *.bag
 *.db3
 *.mcap
@@ -13,6 +15,11 @@ __pycache__/
 *.log
 *.csv
 *.zip
+*.o
+*.so
+*.a
+*.swp
+*.tmp
 .env
 .env.*
 !.env.example

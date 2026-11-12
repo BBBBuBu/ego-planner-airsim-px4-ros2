@@ -9,4 +9,6 @@
 
 本仓库保存的是当前实际源码，不替换为诊断时生成的建议副本，也没有把未完成的修改写成已完成。成功基线源码仍有可后续完善的恢复期回调检查。
 
-基线参数以原样归档的 launch/settings 为准，baseline/parameters.json 是关键参数摘要。源代码 SHA-256 与上游基准见 baseline/source_manifest.json。
+基线参数以原样归档的 launch/settings 为准，hw-ros2/baseline/parameters.json 是关键参数摘要。源代码 SHA-256 与上游基准见 hw-ros2/baseline/source_manifest.json。
+
+目录整理：仅改变归档路径及文档；361 个已归档源码、配置和许可证文件的原始字节保持一致。
