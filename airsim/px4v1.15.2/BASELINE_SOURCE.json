@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/PX4/PX4-Autopilot.git",
+  "commit": "4817c0618a1286846116e90c6eb8919efaa013cf",
+  "version": "v1.15.2",
+  "recursive_submodules": true,
+  "overlay_files": {
+    "src/modules/mavlink/streams/DISTANCE_SENSOR.hpp": "7449404f5825c9a50bce0963da10a34159d3b1475cda8a4a250e7b02d2d12ff2",
+    "Tools/setup/ubuntu.sh": "5c4e5e22dfd8016605f29fa677315b732f0d9b071202950246904f498f844f2a",
+    "LICENSE": "4f486239f62804b2190ff52b3005f087cf1033342012152e6383bdad6b891cc4"
+  },
+  "notes": "Only local source overlays are tracked here; fetch_px4.py restores the pinned complete firmware tree and Git metadata, then applies these exact files."
+}
